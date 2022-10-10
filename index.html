@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu html</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+      <nav>
+        <ul>
+          <li><a href="">Cadastro <i class="fa-solid fa-check"></i></a></li>
+          <li><a href="">Contato <i class="fa-solid fa-check"></i></a></li>
+          <li><a href="">Quem Somos <i class="fa-solid fa-check"></i></a></li>
+          <li><a href="">Brincadeiras <i class="fa-solid fa-check"></i></a></li>                      
+        </ul>
+      </nav>
+      
+      <figure id="container">
+        <img id="image" onclick="galinha()" class="galinha" src="./image/turma.png" alt="imagem da galinha pintadinha">
+        
+      </figure>
+      <section class="principal"><!--section principal-->
+        <article class="lista">  
+          <div>
+            <div id="mostra">
+              <input type="text" name="buscar" id="topo-buscar" />
+              <button>Buscar</button>
+            </div>
+          </div>
+          <div id="buscar">
+            <a href="" id="busca">
+              <span></span>
+            </a>
+          </div>
+            <label for="toggle-1">
+              <h3>  <i class="fa-solid fa-check"></i>   Brincadeiras</h3>                        
+            </label>
+            <input type="checkbox" id="toggle-1">
+          <div id="mostra">            
+            <ol>
+              <li ><a href="https://www.google.com/search?q=cirandinha&oq=cirandinha&aqs=chrome..69i57j46i131i433i512j0i512j46i175i199i512j0i512j46i175i199i512l4j0i512.4019j0j7&sourceid=chrome&ie=UTF-8"><i class="fa-solid fa-check"></i> Cirandinha</a></li>
+              <li><a href=""><i class="fa-solid fa-check"></i> Passa anel</a></li>
+              <li><a href=""><i class="fa-solid fa-check"></i> Forca</a></li>
+              <li><a href=""><i class="fa-solid fa-check"></i> Pula-pula</a></li>
+            </ol>
+          </div>
+        </article>  
+        <article>
+              <h1>Lorem ipsum dolor</h1>          
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat dignissimos magni, reprehenderit nulla itaque asperiores recusandae. <br/> 
+                Culpa aliquid molestias aspernatur accusantium delectus laborum tempora, deserunt, ipsam ducimus eum sunt!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat dignissimos magni, reprehenderit nulla itaque asperiores recusandae. <br/> 
+                  Culpa aliquid molestias aspernatur accusantium delectus laborum tempora, deserunt, ipsam ducimus eum sunt!</p>
+          </article> 
+          <article>
+            <h1>Lorem ipsum dolor</h1>          
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat dignissimos magni, reprehenderit nulla itaque asperiores recusandae. <br/> 
+              Culpa aliquid molestias aspernatur accusantium delectus laborum tempora, deserunt, ipsam ducimus eum sunt!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat dignissimos magni, reprehenderit nulla itaque asperiores recusandae. <br/> 
+                Culpa aliquid molestias aspernatur accusantium delectus laborum tempora, deserunt, ipsam ducimus eum sunt!</p>
+        </article> 
+        
+        <div class="formulario">
+          <form>
+            <div class="label">
+                <label for="nome"><i class="fa-regular fa-user"></i> Nome:   </label>
+                <input type="text" id="nome" placeholder="Digite seu nome:" />
+            </div>
+            <div class="label">
+                <label for="email"><i class="fa-regular fa-envelope"></i> E-mail: </label>
+                <input type="email" id="email" placeholder="Digite seu email:" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" placeholder="Deixe aqui sua mensagem:"></textarea>
+            </div>
+            <div class="botao">
+              <button>cadastrar</button>
+            </div>
+        </form> 
+      </div> 
+         
+        </div>
+    </section>
+  </body>
+</html>
